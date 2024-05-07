@@ -1,6 +1,6 @@
 <a href="https://rosef.rs/"><img src="https://github.com/Rosef-Engineering/.github/raw/main/profile/logo.jpg" alt="Rosef" width="300"/></a>  
   
-## Let's Electrify Africa 
+# Let's Electrify Africa 
    
 
 This repository is a part of Rosef's efforts at developing <!-- The goal of Rosef is to develop // This project is a part of Rosef's efforts at developing -->a sustainable solution for electrification, with the main focus being on Africa. More specifically, our target is to start with homes and small businesses in Africa. Owing to the weather conditions in the majority of our target region, solar (photovoltaic) power is the basis of our solution.  
@@ -19,26 +19,26 @@ For more information about the background of these points, please see:
 <!-- Icon source: https://uxwing.com/youtube-color-icon/ -->  
    
 
-## Licensing
+# Licensing
   
 The contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](LICENCE.txt) file for the legal code.  
   
 
 
-## Repository Content
+# Repository Content
 
 The goal of this repository and its contents is to document the design of the system and its components in order to enable technical discussions and development coordination. In the long term, the target is to have detailed requirements and architecture, assuring traceability and consistency throughout the development process.  
 Currently, the block diagrams are created in [Ipe](https://ipe.otfried.org/) and exported in svg format. These are combined with markdown text to create documentation.  
-1.  [System architecture]()  
-2.  [ELV Socket architecture]()  
+1.  [System architecture]()<!-- TODO -->  
+2.  [ELV Socket architecture]()<!-- TODO -->  
 
 
-## How to Contribute
+# How to Contribute
 
 <!-- TODO review our documentation, review our project repositories to see if they align with documentation -->
 
 
-## More About Us
+# More About Us
 
 For more information about our cause please see [rosef.rs](https://rosef.rs/). If you wish to support us financially, please visit [rosef.rs/support](https://rosef.rs/support). <!--TODO setup forwarding to youtube channel? (talk to Katarina)--> 
  
