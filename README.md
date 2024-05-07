@@ -21,7 +21,7 @@ For more information about the background of these points, please see:
 
 ## Licensing
   
-The contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](LICENCE.txt) file for licence rights and limitations.  
+The contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](LICENCE.txt) file for the legal code.  
   
 
 
@@ -31,6 +31,11 @@ The goal of this repository and its contents is to document the design of the sy
 Currently, the block diagrams are created in [Ipe](https://ipe.otfried.org/) and exported in svg format. These are combined with markdown text to create documentation.  
 1.  [System architecture]()  
 2.  [ELV Socket architecture]()  
+
+
+## How to Contribute
+
+<!-- TODO review our documentation, review our project repositories to see if they align with documentation -->
 
 
 ## More About Us
