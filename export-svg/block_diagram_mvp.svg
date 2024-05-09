@@ -906,7 +906,7 @@
 <use xlink:href="#glyph-7-2" x="216.422281" y="206.702"/>
 </g>
 <path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 39.2%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 352 764 L 352 700 L 384 700 L 384 764 Z M 352 764 " transform="matrix(1, 0, 0, -1, -63, 785)"/>
-<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 39.2%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 236 716 L 236 692 L 284 692 L 284 716 Z M 236 716 " transform="matrix(1, 0, 0, -1, -63, 785)"/>
+<path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 236 716 L 236 692 L 284 692 L 284 716 Z M 236 716 " transform="matrix(1, 0, 0, -1, -63, 785)"/>
 <path fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 54.5%, 54.5%)" stroke-opacity="1" stroke-miterlimit="10" d="M 242 700 L 252 700 " transform="matrix(1, 0, 0, -1, -63, 785)"/>
 <path fill-rule="evenodd" fill="rgb(0%, 54.5%, 54.5%)" fill-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 54.5%, 54.5%)" stroke-opacity="1" stroke-miterlimit="10" d="M 252 700 L 247 701.664062 L 247 698.335938 Z M 252 700 " transform="matrix(1, 0, 0, -1, -63, 785)"/>
 <path fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 39.2%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 244 712 L 240 704 L 244 696 " transform="matrix(1, 0, 0, -1, -63, 785)"/>
