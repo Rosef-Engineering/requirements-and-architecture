@@ -1,0 +1,25 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: github-documentation
+Disclaimer: This content is provided without any express or implied warranty.
+Source: https://github.com/Rosef-Engineering/requirements-and-architecture/
+
+Files: *
+Copyright: 2024 Rosef Engineering
+License: CC-BY-SA-4.0
+    See https://creativecommons.org/licenses/by-sa/4.0/ for an outline of the licence terms.
+    See https://creativecommons.org/licenses/by-sa/4.0/legalcode.en for the legal code.
+
+Files: LICENCE.txt
+Copyright: Creative Commons
+License: CC0-1.0
+
+Files: COPYRIGHT.txt
+Copyright: 2024 Rosef Engineering
+License: CC0-1.0
+
+Files: .gitignore
+Copyright: 2024 Rosef Engineering
+License: CC0-1.0
+
+
+
