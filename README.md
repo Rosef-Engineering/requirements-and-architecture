@@ -1,3 +1,5 @@
+[Copyright Rosef Engineering 2024](/COPYRIGHT.txt)  
+  
 <a href="https://rosef.rs/"><img src="https://github.com/Rosef-Engineering/.github/raw/main/profile/logo.jpg" alt="Rosef" width="300"/></a>  
   
 ## Let's Electrify Africa 
@@ -21,14 +23,14 @@ For more information about the background of these points, please see:
 
 ## Licensing
   
-The contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](LICENCE.txt) file for the legal code.  
-  
+Most of the contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](/LICENCE.txt) file for the legal code.  
+See the [COPYRIGHT](/COPYRIGHT.txt) file for file-specific information.  
 
 
 ## Repository Content
 
 The goal of this repository and its contents is to document the design of the system and its components in order to enable technical discussions and development coordination. In the long term, the target is to have detailed requirements and architecture, assuring traceability and consistency throughout the development process.  
-Currently, the block diagrams are created in [Ipe](https://ipe.otfried.org/) and exported in svg format. These are combined with markdown text to create documentation.  
+Currently, the block diagrams are created in [Ipe](https://ipe.otfried.org/), exported in svg format and combined with markdown text. In addition, some parts, which are best suited for tabular representation, are in the form of spreadsheets.  
 1.  [System architecture]()<!-- TODO -->  
 2.  [ELV Socket architecture]()<!-- TODO -->  
 
