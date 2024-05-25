@@ -1,4 +1,4 @@
-[Copyright Rosef Engineering 2024](/COPYRIGHT.txt)  
+[Copyright Rosef Engineering 2024](/reuse/dep5)  
   
 <a href="https://rosef.rs/"><img src="https://github.com/Rosef-Engineering/.github/raw/main/profile/logo.jpg" alt="Rosef" width="300"/></a>  
   
@@ -23,8 +23,7 @@ For more information about the background of these points, please see:
 
 ## Licensing
   
-Most of the contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](/LICENCE.txt) file for the legal code.  
-See the [COPYRIGHT](/COPYRIGHT.txt) file for file-specific information.  
+Most of the contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](/LICENCE.txt) file for the legal code. See [this](/reuse/dep5) file for file-specific information.  
 
 
 ## Repository Content
