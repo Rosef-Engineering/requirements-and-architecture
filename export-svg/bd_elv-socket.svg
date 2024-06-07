@@ -603,5 +603,5 @@
 <path fill="none" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 54.5%, 54.5%)" stroke-opacity="1" stroke-miterlimit="10" d="M 96 748 L 96 760 L 123.957031 760 " transform="matrix(1, 0, 0, -1, -83, 777)"/>
 <path fill="none" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 54.5%, 54.5%)" stroke-opacity="1" stroke-miterlimit="10" d="M 96 715.996094 L 96 691.996094 L 123.957031 691.996094 " transform="matrix(1, 0, 0, -1, -83, 777)"/>
 <path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 14.800781 85 C 14.800781 82.601562 11.199219 82.601562 11.199219 85 C 11.199219 87.398438 14.800781 87.398438 14.800781 85 Z M 14.800781 85 "/>
-<path fill="none" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-dasharray="4" stroke-miterlimit="10" d="M 124 772.003906 L 124 668.003906 L 312 668.003906 L 312 772.003906 Z M 124 772.003906 " transform="matrix(1, 0, 0, -1, -83, 777)"/>
+<path fill="none" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-dasharray="4" stroke-miterlimit="10" d="M 124 772.003906 L 124 670 L 312 670 L 312 772.003906 Z M 124 772.003906 " transform="matrix(1, 0, 0, -1, -83, 777)"/>
 </svg>
