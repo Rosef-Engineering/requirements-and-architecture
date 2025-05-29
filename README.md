@@ -29,15 +29,15 @@ Most of the contents of this repository and licensed under [CC BY-SA 4.0](https:
 
 ## System Architecture
   
-Derived from the concepts above, as well as the needs of our target application, Fig. 1 below depicts a high-level overview of the proposed architecture of a domestic electric installation. including all potential components and some appliances (including redundancies).  
+Derived from the concepts above, as well as the needs of our target application, Fig. 1 below depicts a high-level overview of the proposed architecture of a domestic electric installation.  
 
 <figure>
-  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/bd_overview.svg" alt="Generalized system overview" width="750"/>
+  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/bd_overview.svg" alt="Generalized system overview" width="400"/>
   <figcaption>Fig. 1 - Generalized system overview.</figcaption>
 </figure>  
 
 <figure>
-  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/bd_full_general.svg" alt="System block diagram" width="750"/>
+  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/bd_full_general.svg" alt="System block diagram" width="600"/>
   <figcaption>Fig. 2 - System block diagram.</figcaption>
 </figure>  
   
