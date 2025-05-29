@@ -27,6 +27,30 @@ For more information about the background of these points, please see:
 Most of the contents of this repository and licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by/4.0/). See the [LICENCE](/LICENCE.txt) file for the legal code. See [this](/reuse/dep5) file for file-specific information.  
 
 
+## System Architecture
+  
+Derived from the concepts above, as well as the needs of our target application, Fig. 1 below depicts a high-level overview of the proposed architecture of a domestic electric installation. including all potential components and some appliances (including redundancies).  
+
+<figure>
+  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/bd_overview.svg" alt="Generalized system overview" width="750"/>
+  <figcaption>Fig. 1 - Generalized system overview.</figcaption>
+</figure>  
+
+<figure>
+  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/bd_full_general.svg" alt="System block diagram" width="750"/>
+  <figcaption>Fig. 2 - System block diagram.</figcaption>
+</figure>  
+  
+Our goal is to develop the system in the schematic above, but our plan is to focus first on the subset shown below in Fig. 3.  
+
+<figure>
+  <img src="https://raw.githubusercontent.com/Rosef-Engineering/requirements-and-architecture/main/export-svg/block_diagram_mvp.svg" alt="MVP subset block diagram" width="750"/>
+  <figcaption>Fig. 3 - MVP subset block diagram.</figcaption>
+</figure>  
+  
+For more information, please see [Requirements and Architecture](https://github.com/Rosef-Engineering/requirements-and-architecture/tree/main).  
+  
+
 ## Repository Content
 
 The goal of this repository and its contents is to document the design of the system and its components in order to enable technical discussions and development coordination. In the long term, the target is to have detailed requirements and architecture, assuring traceability and consistency throughout the development process.  
