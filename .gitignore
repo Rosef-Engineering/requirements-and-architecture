@@ -1,2 +1,3 @@
 .~lock.*
 *.autosave.ipe
+export-svg/.*.svg
