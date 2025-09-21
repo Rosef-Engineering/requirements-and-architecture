@@ -2040,7 +2040,7 @@
 <use xlink:href="#glyph-36-5" x="80.905582" y="25.43"/>
 </g>
 </g>
-<path fill="none" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-dasharray="4" stroke-miterlimit="10" d="M 64 724 L 64 500 L 172 500 L 172 724 Z M 64 724 " transform="matrix(1, 0, 0, -1, -55, 761)"/>
+<path fill="none" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-dasharray="4" stroke-miterlimit="10" d="M 64 724 L 64 648 L 172 648 L 172 724 Z M 64 724 " transform="matrix(1, 0, 0, -1, -55, 761)"/>
 <path fill-rule="evenodd" fill="rgb(100%, 100%, 100%)" fill-opacity="1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 39.2%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 108 680 L 108 664 L 132 664 L 132 680 Z M 108 680 " transform="matrix(1, 0, 0, -1, -55, 761)"/>
 <g clip-path="url(#clip-41)">
 <g fill="rgb(0%, 39.2%, 0%)" fill-opacity="1">
@@ -2123,4 +2123,6 @@
 <use xlink:href="#glyph-42-1" x="138.873246" y="38.9192"/>
 <use xlink:href="#glyph-42-3" x="142.635133" y="38.9192"/>
 </g>
+<path fill="none" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 100%, 0%)" stroke-opacity="1" stroke-dasharray="4" stroke-miterlimit="10" d="M 64 648 L 64 500 L 172 500 L 172 648 Z M 64 648 " transform="matrix(1, 0, 0, -1, -55, 761)"/>
+<path fill="none" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 100%, 0%)" stroke-opacity="1" stroke-dasharray="4" stroke-miterlimit="10" d="M 204 584 L 204 444 L 352 444 L 352 584 Z M 204 584 " transform="matrix(1, 0, 0, -1, -55, 761)"/>
 </svg>
