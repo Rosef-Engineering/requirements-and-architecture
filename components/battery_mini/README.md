@@ -2,4 +2,4 @@
 
 # Architecture
 
-<img src="Power-block-diagram" alt="Power stage concept" width="1200"/>
+<img src="Power-stage-concept.svg" alt="Power stage concept" width="1200"/>
