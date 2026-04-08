@@ -41,7 +41,7 @@ Battery Mini shall be able to operate with any [Battery](#info-battery) voltage 
 Since the maximum voltage of a lithium ion battery cell is 4.2V, and the nominal voltage is 3.7V, the maximum nominal battery voltage is 63V/4.2*3.7 = 56V.
 
 #### 1.2.2. Minimum Battery Voltage
-Battery Mini shall be able to transfer the [Nominal Power](#1-1-4-nominal-power-bidirectional) continuously with any [Battery](#info-battery) voltage down to 30V.
+Battery Mini shall be able to transfer the [Nominal Power](#114-nominal-power-bidirectional) continuously with any [Battery](#info-battery) voltage down to 30V.
 
 #### 1.2.3. Battery Recovery
 Battery Mini shall be able to charge a connected [Battery](#info-battery) even if it has been fully discharged down to 0V.
