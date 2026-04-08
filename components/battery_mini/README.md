@@ -13,7 +13,7 @@ The ELV Connection, as show in the [Context Block Diagram](#info-context-block-d
 The Battery, as show in the [Context Block Diagram](#info-context-block-diagram), is an electrochemical energy storage device, optionally provided as part of Battery Mini, which can be detached an reattahced to Battery Mini. It can be charged and discharged by Battery Mini, i.e. it provides energy storage through Battery Mini to the [ELV Connection](#info-elv-connection).
 
 #### [info] Rosef CAN Bus
-The Rosef CAN Bus (RCAN) is an electrical connection to a set of CAN bus lines, through which communication to other devices connected to the same [ELV Connection](#info-elv-connection) is possible and can be used to coordinate power transfer.
+The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-block-diagram), is an electrical connection to a set of CAN bus lines, through which communication to other devices connected to the same [ELV Connection](#info-elv-connection) is possible and can be used to coordinate power transfer.
 
 ### 1.1. General Requirements
 
