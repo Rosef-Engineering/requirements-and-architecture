@@ -3,8 +3,7 @@
 ### 1.1. Context
 
 #### [info] Context Block Diagram  
-TODO Context Block Diagram
-<!--img src="block-diagram.svg" alt="Block diagram" width="500"/-->
+<img src="block-diagram.svg" alt="Block diagram" width="500"/>
 
 #### [info] ELV Connection
 The ELV Connection, as show in the [Context Block Diagram](#info-context-block-diagram), is an electrical connection to an extra-low-voltage (ELV) node, formed either by Battery Mini or by other devices connected to the same node.
