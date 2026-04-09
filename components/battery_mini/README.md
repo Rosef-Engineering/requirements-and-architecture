@@ -47,6 +47,10 @@ Battery Mini shall be able to charge a connected [Battery](#info-battery) even i
 
 ## 2. Architecture
 
-### Hardware Concept
+### Power Stage Concept
 
 <img src="Power-stage-concept.svg" alt="Power stage concept" width="1200"/>
+
+### Auxiliary Power Supply Concept
+
+<img src="aux-supplies-concept.svg" alt="Auxiliary Power Supply Concept" width="1200"/>
