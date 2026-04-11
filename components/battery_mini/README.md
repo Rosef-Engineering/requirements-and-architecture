@@ -3,7 +3,7 @@
 ### 1.1. Context
 
 #### [info] Context Block Diagram  
-<img src="block-diagram.svg" alt="Block diagram" width="500"/>
+<img src="context-block-diagram.svg" alt="Context Block Diagram" width="500"/>
 
 #### [info] ELV Connection
 The ELV Connection, as show in the [Context Block Diagram](#info-context-block-diagram), is an electrical connection to an extra-low-voltage (ELV) node, formed either by Battery Mini or by other devices connected to the same node.
@@ -52,7 +52,7 @@ Battery Mini shall be able to charge a connected [Battery](#info-battery) even i
 
 ### Power Stage Concept
 
-<img src="Power-stage-concept.svg" alt="Power stage concept" width="1200"/>
+<img src="power-stage-concept.svg" alt="Power Stage Concept" width="1200"/>
 
 ### Auxiliary Power Supply Concept
 
