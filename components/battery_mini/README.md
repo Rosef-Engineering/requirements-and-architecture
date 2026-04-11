@@ -31,6 +31,9 @@ Battery Mini shall be able to transfer at least 600W of power between the [Batte
 #### 1.1.5. Rosef CAN Communication  
 Battery Mini shall communicate with other devices connected to the same [Rosef CAN Bus](info-rosef-can-bus) according to the [Rosef CAN Specification](https://github.com/Rosef-Engineering/requirements-and-architecture/tree/main/system/RCAN/).
 
+#### 1.1.6. Communication Interface for UI
+Battery Mini shall have a communication interface dedicated for connecting to a user interface for displaying information to the user and accepting input from the user.
+
 ### 1.2. Battery
 
 #### 1.2.1 Maximum Battery Voltage
