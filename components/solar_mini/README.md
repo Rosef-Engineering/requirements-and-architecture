@@ -1,4 +1,4 @@
-# PV Mini
+# Solar Mini
 
 ## Requirements
 
