@@ -31,7 +31,7 @@ The Battery, as show in the [Context Block Diagram](#info-context-block-diagram)
 > <span style="color:red"> Conditions and reasons for detachment should be clarified, like *detached (i.e. for usage in electro mobility)*. Also what happens to the system when battery is detached, can it continue to function and under what conditions? </span>
 
 > [!tip]  
-> <span style="color:green"> Added clarification. The system can continue to function in case another source is attached to the ELV line. It would be off-topic and clunky to explain that here in my opinion. It will be explained in the System requirements and the requirements of other components. </span>
+> <span style="color:green"> Added clarification. The system can continue to function in case another source is attached to the ELV line. It would be off-topic and clunky to explain that here in my opinion. It will be explained in the system architecture and the requirements of other components. </span>
 
 #### [info] Rosef CAN Bus
 The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-block-diagram), is a two wire electrical connection to a CAN bus line, through which communication to other devices connected to the same [ELV Connection](#info-elv-connection) is possible and can be used to coordinate power transfer.
@@ -41,7 +41,7 @@ The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-b
 #### 1.1.1. Control ELV  
 Battery Mini shall be able to control the voltage of the [ELV Connection](#info-elv-connection) to any setpoint between 46V and 50V.
 
-Note: This functionality is limited by the power that the [Battery](#info-battery) can sink or provide, as well as the [Nominal Power](#114-nominal-power-bidirectional) of Battery Mini itself.
+Note: This functionality is limited by the power that the [Battery](#info-battery) can sink or provide, as well as the [Nominal Power](#115-nominal-power-bidirectional) of Battery Mini itself.
 
 > [!caution]  
 > <span style="color:red"> Maybe better call it grid forming operation to be consistant with previously used therminology.
@@ -53,15 +53,13 @@ Nominaly it can balance the excess and shortage in power by charging and dischar
 > [!important]  
 > <span style="color:magenta">How will Battery Mini determine how much power the Battery is capable of sinking or providing? </span>
 
-#### 1.1.2 Control 
+#### 1.1.2 Droop Control
+Battery Mini shall be able to dynamically determine the voltage setpoint for the [ELV control]{#111-control-elv} dependant on the current supplied to the [ELV Connection](#info-elv-connection).
 
-> [!important]  
-> <span style="color:magenta"> TO-DO </span>
-
-#### 1.1.2. Connect to ELV  
+#### 1.1.3. Connect to ELV  
 Battery Mini shall be able to shall be able to start operation with any voltage up to 50V at the [ELV Connection](#info-elv-connection).
 
-#### 1.1.3. Parallel Operation  
+#### 1.1.4. Parallel Operation  
 Battery Mini shall be able to operate in parallel to another source connected to the [ELV Connection](#info-elv-connection) (e.g. another Battery Mini).
 
 > [!caution]  
@@ -69,7 +67,10 @@ Battery Mini shall be able to operate in parallel to another source connected to
 I think this should be widen a bit to inculde coordinated operation among different grid forming converters (features like power sharing, etc..).
 </span>
 
-#### 1.1.4. Nominal Power (Bidirectional)  
+> [!tip]  
+> <span style="color:green"> Unless we see a potential impact on the HW, we can define the specifics at a later point and update the requirements then.</span>
+
+#### 1.1.5. Nominal Power (Bidirectional)  
 Battery Mini shall be able to transfer at least 600W of power continuously between the [Battery](#info-battery) and the [ELV Connection](#info-elv-connection) in both directions.
 
 Note: Actual power limited by battery depending on its state of charge. 
@@ -88,23 +89,37 @@ Battery Mini shall have a communication interface dedicated for connecting to a 
 Battery Mini shall be able to operate with any [Battery](#info-battery) voltage up to 63V.
 
 #### [info] Nominal Li-ion Battery Voltage
-Since the maximum voltage of a lithium ion battery cell is 4.2V, and the nominal voltage is 3.7V, the maximum nominal battery voltage is 63V/4.2*3.7 = 56V.
+Since the maximum voltage of a lithium ion battery cell is 4.2V, and the nominal voltage is 3.7V, the maximum nominal battery voltage is 63V/4.2*3.7 = 56V (i.e. up to 15 cells in series).
 
 > [!caution]  
-> <span style="color:red">
-Add a clarification to formula so that you state that we will have 15 series cells.
-</span>
+> <span style="color:red"> Add a clarification to formula so that you state that we will have 15 series cells. </span>
+
+> [!tip]  
+> <span style="color:green"> Added clarification.</span>
 
 #### 1.2.2. Minimum Battery Voltage
-Battery Mini shall be able to transfer the [Nominal Power](#114-nominal-power-bidirectional) continuously with any [Battery](#info-battery) voltage down to 30V.
+Battery Mini shall be able to transfer the [Nominal Power](#115-nominal-power-bidirectional) continuously with any [Battery](#info-battery) voltage down to 30V.
 
 #### 1.2.3. Battery Recovery
 Battery Mini shall be able to charge a connected [Battery](#info-battery) even if it has been fully discharged down to 0V.
 
 > [!caution]  
-> <span style="color:red">
-I would add another point: *ensuring proper battery charge cycle with CC and CV charging modes*.
-</span>
+> <span style="color:red"> I would add another point: *ensuring proper battery charge cycle with CC and CV charging modes*. </span>
+
+> [!tip]  
+> <span style="color:green"> Added requirements below. Unless we see a potential impact on the HW, we can define other details at a later point and update the requirements then.</span>
+
+#### 1.2.4. Control Battery Current
+Battery Mini shall be able to control the [Battery](#info-battery) current.
+
+> [!important]  
+> <span style="color:magenta"> How will Battery Mini determine the current limit for charging/discharging? </span>
+
+#### 1.2.5. Control Battery Voltage
+Battery Mini shall be able to control the [Battery](#info-battery) voltage (for CV charging phase).
+
+> [!important]  
+> <span style="color:magenta"> How will Battery Mini determine the voltage for CV charging? </span>
 
 ## 2. Architecture
 
