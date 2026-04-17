@@ -38,7 +38,7 @@ Note: This functionality is limited by the power that the [PV Input](#info-pv-in
 > <span style="color:red"> I suggested we keep the same wording as in the Battery Mini requirements, since we're only talking about the ability of Solar Mini, and it would be better to avoid talking about other components. </span>
 
 #### 1.1.3 Droop Control
-Solar Mini shall be able to dynamically determine the voltage setpoint for the [ELV control]{#112-control-elv} depending on the current supplied to the [ELV Connection](#info-elv-connection).
+Solar Mini shall be able to dynamically determine the voltage setpoint for the [ELV control](#112-control-elv) depending on the current supplied to the [ELV Connection](#info-elv-connection).
 
 > [!caution]  
 > <span style="color:red"> Added this point from Battery Mini, since the same applies here. </span>
