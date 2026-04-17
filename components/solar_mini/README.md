@@ -32,7 +32,7 @@ Solar Mini shall be able to track the maximum power point (MPPT) of the attache
 #### 1.1.2. Control ELV
 Solar Mini shall be able to control the voltage of the [ELV Connection](#info-elv-connection) to any setpoint between 46V and 50V.
 
-Note: This functionality is limited by the power that the [PV Input](#info-pv-input) can provide, as well as the [Nominal Power](#115-nominal-power) of Solar Mini itself.
+Note: This functionality is limited by the power that the [PV Input](#info-pv-input) can provide, as well as the [Nominal Power](#116-nominal-power) of Solar Mini itself.
 
 > [!caution]  
 > <span style="color:red"> I suggested we keep the same wording as in the Battery Mini requirements, since we're only talking about the ability of Solar Mini, and it would be better to avoid talking about other components. </span>
@@ -43,13 +43,19 @@ Solar Mini shall be able to dynamically determine the voltage setpoint for the [
 > [!caution]  
 > <span style="color:red"> Added this point from Battery Mini, since the same applies here. </span>
 
-#### 1.1.4. Parallel Operation
+#### 1.1.4. Connect to ELV  
+Solar Mini shall be able to shall be able to start operation with any voltage up to 50V at the [ELV Connection](#info-elv-connection).
+
+> [!caution]  
+> <span style="color:red"> Added this point from Battery Mini, since the same applies here. </span>
+
+#### 1.1.5. Parallel Operation
 Solar Mini shall be able to operate in parallel with another source connected to the [ELV Connection](#info-elv-connection) (e.g. another Solar Mini).  
 
 > [!caution]  
 > <span style="color:red"> I would keep this requirement only about parallel operation on the ELV side. We can make a note in the PV Input section explaining that multiple panels can be paralleled at the input. </span>
 
-#### 1.1.5. Nominal Power
+#### 1.1.6. Nominal Power
 Solar Mini shall be able to transfer up to 600W of power if available from the [PV Input](#info-pv-input), and provided there is a need for that much power in the system.
 
 > [!caution]  
