@@ -24,7 +24,7 @@ The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-b
 ### 1.1. General Requirements
 
 #### 1.1.1. MPPT Control  
-Solar Mini shall be able to track the maximum power point (MPPT) of the attached [PV Input](#info-pv-input), provided that the available power is within operating limits and that the [ELV Connection](#info-elv-connection) can accept it.  
+Solar Mini shall be able to track the maximum power point (MPPT) of the attached [PV Input](#info-pv-input), provided that the available power is within operating limits and that the [ELV Connection](#info-elv-connection) can accept the power.  
 
 > [!caution]  
 > <span style="color:red"> Suggested slight modifications. </span>
