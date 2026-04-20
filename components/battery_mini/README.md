@@ -1,7 +1,7 @@
 # Battery Mini
 
 > [!note]
-> Reviewed by LazarusMagnus on 14/04, then by filipcve on 16/04, then again by LazarusMagnus on 17/04. Previous discussion kept inside html comment.
+> Reviewed by LazarusMagnus on 17/04. Previous discussion kept inside hidden (html) comments.
 
 <!-- 18/04/2026 
 > [!caution]  
