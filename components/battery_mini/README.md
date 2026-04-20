@@ -57,9 +57,10 @@ Nominaly it can balance the excess and shortage in power by charging and dischar
 > [!tip]  
 > <span style="color:green"> Changed wording above and avoided ambiguity here. </span>
 -->
+<!-- 20/04/2026 Added 1.2.6 below.
 > [!important]  
 > <span style="color:magenta">How will Battery Mini determine how much power the Battery is capable of sinking or providing? </span>
-
+-->
 #### 1.1.2 Droop Control
 Battery Mini shall be able to dynamically determine the voltage setpoint for the [ELV control]{#111-control-elv} dependant on the current supplied to the [ELV Connection](#info-elv-connection).
 
@@ -81,9 +82,11 @@ I think this should be widen a bit to inculde coordinated operation among differ
 Battery Mini shall be able to transfer at least 600W of power continuously between the [Battery](#info-battery) and the [ELV Connection](#info-elv-connection) in both directions.
 
 Note: Actual power limited by battery depending on its state of charge. 
+
+<!-- 20/04/2026 Added 1.2.6 below.
 > [!important]  
 > <span style="color:magenta"> How will Battery Mini determine state of charge or in general power capacity of the battery? </span>
-
+-->
 #### 1.1.5. Rosef CAN Communication  
 Battery Mini shall communicate with other devices connected to the same [Rosef CAN Bus](#info-rosef-can-bus) according to the [Rosef CAN Specification](https://github.com/Rosef-Engineering/requirements-and-architecture/tree/main/system/RCAN/).
 
@@ -122,14 +125,19 @@ Battery Mini shall be able to charge a connected [Battery](#info-battery) even i
 #### 1.2.4. Control Battery Current
 Battery Mini shall be able to control the [Battery](#info-battery) current.
 
+<!-- 20/04/2026 Added 1.2.6 below.
 > [!important]  
 > <span style="color:magenta"> How will Battery Mini determine the current limit for charging/discharging? </span>
-
+-->
 #### 1.2.5. Control Battery Voltage
 Battery Mini shall be able to control the [Battery](#info-battery) voltage (for CV charging phase).
 
+<!-- 20/04/2026 Added 1.2.6 below.
 > [!important]  
 > <span style="color:magenta"> How will Battery Mini determine the voltage for CV charging? </span>
+-->
+#### 1.2.6. Communicate with BMS  
+Battery Mini shall have a communication interface dedicated for exchanging information with the battery managment system (BMS) of the attached [Battery](#info-battery) (e.g. maximum charge and discharge currents, CV charging voltage, etc.).  
 
 ## 2. Architecture
 
