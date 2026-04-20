@@ -1,7 +1,7 @@
 # Battery Mini
 
-> [!note]
-> Reviewed by LazarusMagnus on 17/04. Previous discussion kept inside hidden (html) comments.
+> [!note]  
+> Reviewed by LazarusMagnus on 17/04. Previous discussion kept inside hidden comments.
 
 <!-- 18/04/2026 
 > [!caution]  
@@ -30,7 +30,7 @@ The ELV Connection, as show in the [Context Block Diagram](#info-context-block-d
 > <span style="color:green"> Added clarification. </span>
 -->
 #### [info] Battery
-The Battery, as show in the [Context Block Diagram](#info-context-block-diagram), is an electrochemical energy storage device, optionally provided as part of Battery Mini, which can be detached from Battery Mini for use elsewhere (e.g. in a light electric vehicle). It can be charged and discharged by Battery Mini, i.e. it provides energy storage through Battery Mini to the [ELV Connection](#info-elv-connection).
+The Battery, as show in the [Context Block Diagram](#info-context-block-diagram), is an electrochemical energy storage device, optionally provided as part of Battery Mini, which can be detached from Battery Mini for use elsewhere (e.g. in a light electric vehicle). It can be charged and discharged by Battery Mini, i.e. it provides energy storage through Battery Mini to the [ELV Connection](#info-elv-connection). It has an integrated battery management system (BMS) and a communication interface through which it informs Battery Mini about its capabilities and status.
 
 <!-- 18/04/2026 
 > [!caution]  
