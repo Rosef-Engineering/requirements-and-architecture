@@ -16,7 +16,7 @@ The ELV Connection, as show in the [Context Block Diagram](#info-context-block-d
 #### [info] PV Input
 The PV Input is a two wire electrical connection to a photovoltaic (PV) source optionally provided as part of Solar Mini, shown on the left side of the [Context Block Diagram](#info-context-block-diagram). The system can work with various input voltages, a single panel or multiple panels connected in parallel.  
 
-> [!caution]
+> [!caution]  
 > <span style="color:red"> Suggested slight modifications. Removed explicitly stated characteristics - they should be stated below in the requirements only. </span>
 
 #### [info] Rosef CAN Bus
