@@ -5,6 +5,7 @@
 ### 1.1. Context
 
 #### [info] Context Block Diagram  
+<img src="context-block-diagram.svg" alt="Context Block Diagram" width="500"/>
 
 #### [info] ELV Connection
 The ELV Connection, as show in the [Context Block Diagram](#info-context-block-diagram), is a two wire electrical connection to an extra-low-voltage (ELV) line, nominally at 48V. As explained in chapter below, it is supplied by Battery Mini and/or other devices connected to the same line.
