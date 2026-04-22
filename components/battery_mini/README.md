@@ -42,12 +42,12 @@ The Battery, as show in the [Context Block Diagram](#info-context-block-diagram)
 #### [info] Rosef CAN Bus
 The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-block-diagram), is a two wire electrical connection to a CAN bus line, through which communication to other devices connected to the same [ELV Connection](#info-elv-connection) is possible and can be used to coordinate power transfer.
 
-### 1.1. General Requirements
+### 1.2. General Requirements
 
-#### 1.1.1. Control ELV  
+#### 1.2.1. Control ELV  
 Battery Mini shall be able to control the voltage of the [ELV Connection](#info-elv-connection) to any setpoint between 46V and 50V.
 
-Note: This functionality is limited by the power that the [Battery](#info-battery) can sink or provide, as well as the [Nominal Power](#115-nominal-power-bidirectional) of Battery Mini itself.
+Note: This functionality is limited by the power that the [Battery](#info-battery) can sink or provide, as well as the [Nominal Power](#125-nominal-power-bidirectional) of Battery Mini itself.
 
 <!-- 18/04/2026 
 > [!caution]  
@@ -57,17 +57,17 @@ Nominaly it can balance the excess and shortage in power by charging and dischar
 > [!tip]  
 > <span style="color:green"> Changed wording above and avoided ambiguity here. </span>
 -->
-<!-- 20/04/2026 Added 1.2.6 below.
+<!-- 20/04/2026 Added 1.3.6 below.
 > [!important]  
 > <span style="color:magenta">How will Battery Mini determine how much power the Battery is capable of sinking or providing? </span>
 -->
-#### 1.1.2 Droop Control
-Battery Mini shall be able to dynamically determine the voltage setpoint for the [ELV control]{#111-control-elv} dependant on the current supplied to the [ELV Connection](#info-elv-connection).
+#### 1.2.2 Droop Control
+Battery Mini shall be able to dynamically determine the voltage setpoint for the [ELV control]{#121-control-elv} dependant on the current supplied to the [ELV Connection](#info-elv-connection).
 
-#### 1.1.3. Connect to ELV  
+#### 1.2.3. Connect to ELV  
 Battery Mini shall be able to shall be able to start operation with any voltage up to 50V at the [ELV Connection](#info-elv-connection).
 
-#### 1.1.4. Parallel Operation  
+#### 1.2.4. Parallel Operation  
 Battery Mini shall be able to operate in parallel to another source connected to the [ELV Connection](#info-elv-connection) (e.g. another Battery Mini).
 <!-- 18/04/2026 
 > [!caution]  
@@ -78,7 +78,7 @@ I think this should be widen a bit to inculde coordinated operation among differ
 > [!tip]  
 > <span style="color:green"> Unless we see a potential impact on the HW, we can define the specifics at a later point and update the requirements then.</span>
 -->
-#### 1.1.5. Nominal Power (Bidirectional)  
+#### 1.2.5. Nominal Power (Bidirectional)  
 Battery Mini shall be able to transfer at least 600W of power continuously between the [Battery](#info-battery) and the [ELV Connection](#info-elv-connection) in both directions.
 
 Note: Actual power limited by battery depending on its state of charge. 
@@ -87,15 +87,15 @@ Note: Actual power limited by battery depending on its state of charge.
 > [!important]  
 > <span style="color:magenta"> How will Battery Mini determine state of charge or in general power capacity of the battery? </span>
 -->
-#### 1.1.5. Rosef CAN Communication  
+#### 1.2.5. Rosef CAN Communication  
 Battery Mini shall communicate with other devices connected to the same [Rosef CAN Bus](#info-rosef-can-bus) according to the [Rosef CAN Specification](https://github.com/Rosef-Engineering/requirements-and-architecture/tree/main/system/RCAN/).
 
-#### 1.1.6. Communication Interface for UI
+#### 1.2.6. Communication Interface for UI
 Battery Mini shall have a communication interface dedicated for connecting to a user interface for displaying information to the user and accepting input from the user.
 
-### 1.2. Battery
+### 1.3. Battery
 
-#### 1.2.1 Maximum Battery Voltage
+#### 1.3.1 Maximum Battery Voltage
 Battery Mini shall be able to operate with any [Battery](#info-battery) voltage up to 63V.
 
 #### [info] Nominal Li-ion Battery Voltage
@@ -108,10 +108,10 @@ Since the maximum voltage of a lithium ion battery cell is 4.2V, and the nominal
 > [!tip]  
 > <span style="color:green"> Added clarification.</span>
 -->
-#### 1.2.2. Minimum Battery Voltage
-Battery Mini shall be able to transfer the [Nominal Power](#115-nominal-power-bidirectional) continuously with any [Battery](#info-battery) voltage down to 30V.
+#### 1.3.2. Minimum Battery Voltage
+Battery Mini shall be able to transfer the [Nominal Power](#125-nominal-power-bidirectional) continuously with any [Battery](#info-battery) voltage down to 30V.
 
-#### 1.2.3. Battery Recovery
+#### 1.3.3. Battery Recovery
 Battery Mini shall be able to charge a connected [Battery](#info-battery) even if it has been fully discharged down to 0V.
 
 <!-- 18/04/2026 
@@ -122,21 +122,21 @@ Battery Mini shall be able to charge a connected [Battery](#info-battery) even i
 > <span style="color:green"> Added requirements below. Unless we see a potential impact on the HW, we can define other details at a later point and update the requirements then.</span>
 -->
 
-#### 1.2.4. Control Battery Current
+#### 1.3.4. Control Battery Current
 Battery Mini shall be able to control the [Battery](#info-battery) current.
 
 <!-- 20/04/2026 Added 1.2.6 below.
 > [!important]  
 > <span style="color:magenta"> How will Battery Mini determine the current limit for charging/discharging? </span>
 -->
-#### 1.2.5. Control Battery Voltage
+#### 1.3.5. Control Battery Voltage
 Battery Mini shall be able to control the [Battery](#info-battery) voltage (for CV charging phase).
 
 <!-- 20/04/2026 Added 1.2.6 below.
 > [!important]  
 > <span style="color:magenta"> How will Battery Mini determine the voltage for CV charging? </span>
 -->
-#### 1.2.6. Communicate with BMS  
+#### 1.3.6. Communicate with BMS  
 Battery Mini shall have a communication interface dedicated for exchanging information with the battery managment system (BMS) of the attached [Battery](#info-battery) (e.g. maximum charge and discharge currents, CV charging voltage, etc.).  
 
 ## 2. Architecture
