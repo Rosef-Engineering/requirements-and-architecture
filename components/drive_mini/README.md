@@ -26,6 +26,9 @@ Drive Mini shall be able to provide at least 600W of power continuously to the [
 
 Note: Actual power limited by the power available from the [ELV Socket](#info-elv-socket). 
 
+#### 1.2.4. Prevent Reverse Power Flow  
+Drive Mini shall ensure that power is never returned to the [ELV Socket](#info-elv-socket).
+<!--
 #### 1.2.4. Reverse Power  
 Drive Mini shall be able to transfer up to at least 600W of power from the [Mechanical Output](#info-mechanical-output) to [ELV Socket](#info-elv-socket).
 
@@ -33,7 +36,7 @@ Note: This functionality is limited by the power that the [ELV Socket](#info-elv
 
 > [!important]  
 > <span style="color:magenta"> The end user must be properly warned about the note above! </span>
-
+-->
 #### 1.2.5. Control Output Speed  
 Drive Mini shall be able to control the speed of the [Mechanical Output](#info-mechanical-output) to a setpoint specified via user input.
 
