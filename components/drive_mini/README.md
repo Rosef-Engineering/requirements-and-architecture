@@ -5,7 +5,7 @@
 ### 1.1. Context
 
 #### [info] Context Block Diagram  
-<img src="context-block-diagram.svg" alt="TO-DO: Context Block Diagram" width="500"/>
+<img src="context-block-diagram.svg" alt="Context Block Diagram" width="500"/>
 
 #### [info] ELV Socket
 The ELV Socket, as show in the [Context Block Diagram](#info-context-block-diagram), is a four wire electrical connection to an extra-low-voltage (ELV) line, nominally at 48V, and a Rosef Serial Interface (RSI), a communication interface enabling exchange of information about available power among other things. In general, the ELV Socket is the power input for Drive Mini, though in certain use cases, power can flow in the opposite direction as well.
