@@ -152,3 +152,7 @@ Battery Mini shall have a communication interface dedicated for exchanging infor
 ### Converter Control Concept
 
 <img src="converter-control-concept.svg" alt="Converter Control Concept" width="1200"/>
+
+### Measurements and Protection Concept
+
+<img src="measurements-concept.svg" alt="Measurements and Protection Concept" width="1200"/>
