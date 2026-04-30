@@ -148,3 +148,7 @@ Battery Mini shall have a communication interface dedicated for exchanging infor
 ### Auxiliary Power Supply Concept
 
 <img src="aux-supplies-concept.svg" alt="Auxiliary Power Supply Concept" width="1200"/>
+
+### Converter Control Concept
+
+<img src="converter-control-concept.svg" alt="Converter Control Concept" width="1200"/>
