@@ -1,5 +1,7 @@
 # Battery Mini
 
+## 1. Requirements
+
 > [!note]  
 > Reviewed by LazarusMagnus on 17/04. Previous discussion kept inside hidden comments.
 
@@ -12,7 +14,6 @@ Reviewed by LazarusMagnus on 14/04. Comments given in red. General opinion: Beyo
 > [!tip]  
 > <span style="color:green"> Reply below by filipcve in green with a tip tag. Marked things that still need looking into with an important tag and magenta color. </span>
 -->
-## 1. Requirements
 
 ### 1.1. Context
 
