@@ -63,7 +63,7 @@ Nominaly it can balance the excess and shortage in power by charging and dischar
 > <span style="color:magenta">How will Battery Mini determine how much power the Battery is capable of sinking or providing? </span>
 -->
 #### 1.2.2 Droop Control
-Battery Mini shall be able to dynamically determine the voltage setpoint for the [ELV control]{#121-control-elv} dependant on the current supplied to the [ELV Connection](#info-elv-connection).
+Battery Mini shall be able to dynamically determine the voltage setpoint for the [ELV control](#121-control-elv) dependant on the current supplied to the [ELV Connection](#info-elv-connection).
 
 #### 1.2.3. Connect to ELV  
 Battery Mini shall be able to shall be able to start operation with any voltage up to 50V at the [ELV Connection](#info-elv-connection).
