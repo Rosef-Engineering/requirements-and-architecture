@@ -50,7 +50,7 @@ The charger shall monitor internal temperature and reduce output power or shut d
 #### 1.2.10.	Electrostatic discharge protection (ESD)
 The USB data and configuration lines (including CC, D+, and D− where applicable) shall be protected against electrostatic discharge in accordance with IEC 61000-4-2.
 
-### 1.2.11. Reverse Polarity Protection
+#### 1.2.11. Reverse Polarity Protection
 The input stage of the device shall incorporate reverse polarity protection to prevent damage in the event that the positive and negative supply terminals are incorrectly connected. The protection circuit shall ensure that no reverse current flows into the device under any input polarity condition and shall not cause permanent damage or degradation of performance after correct reconnection.
 
 ## Architecture
