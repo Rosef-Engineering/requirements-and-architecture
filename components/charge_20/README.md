@@ -41,7 +41,7 @@ Charger 20 shall limit output current to prevent damage to the power supply and 
 #### 1.2.7.	Overvoltage protection (OVP)
 The output voltage shall be monitored and limited to safe thresholds for each negotiated charging profile
 
-#### 1.2.8.	Sort circuit protection (SCP)
+#### 1.2.8.	Short circuit protection (SCP)
 Charger 20 shall detect output short-circuit conditions and immediately disable or limit output to prevent damage
 
 #### 1.2.9.	Overtemperature protection (OTP)
@@ -52,6 +52,9 @@ The USB data and configuration lines (including CC, D+, and D− where applicabl
 
 #### 1.2.11. Reverse Polarity Protection
 The input stage of the device shall incorporate reverse polarity protection to prevent damage in the event that the positive and negative supply terminals are incorrectly connected. The protection circuit shall ensure that no reverse current flows into the device under any input polarity condition and shall not cause permanent damage or degradation of performance after correct reconnection.
+
+#### 1.2.12. Surge protection
+Charger 20 shall withstand ±1 kV surge pulses applied to the 48 VDC input according to IEC 61000-4-5 using a 1.2/50 µs voltage waveform and 8/20 µs current waveform, without permanent damage or uncontrolled behavior.
 
 ## Architecture
 
