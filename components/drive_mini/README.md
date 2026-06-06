@@ -51,8 +51,11 @@ Drive Mini shall inform the user about the power available from the [ELV Socket]
 
 ## Architecture
 
-### Concept  
-<img src="concept.svg" alt="Concept" width="600"/>
+### Main Concept  
+<img src="main-concept.svg" alt="Main Concept" width="600"/>
+
+### UI Concept  
+<img src="ui-concept.svg" alt="UI Concept" width="600"/>
 
 
 
