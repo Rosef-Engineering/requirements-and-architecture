@@ -14,10 +14,7 @@
 The ELV Connection, as show in the [Context Block Diagram](#info-context-block-diagram), is a two wire electrical connection to an extra-low-voltage (ELV) line, nominally at 48V. As explained in chapter below, it is supplied by Solar Mini and/or other devices connected to the same line.
 
 #### [info] PV Input
-The PV Input is a two wire electrical connection to a photovoltaic (PV) source optionally provided as part of Solar Mini, shown on the left side of the [Context Block Diagram](#info-context-block-diagram). The system can work with various input voltages, a single panel or multiple panels connected in parallel.  
-
-> [!caution]  
-> <span style="color:red"> Suggested slight modifications. Removed explicitly stated characteristics - they should be stated below in the requirements only. </span>
+The PV Input is a two wire electrical connection to a photovoltaic (PV) source optionally provided as part of Solar Mini, shown on the left side of the [Context Block Diagram](#info-context-block-diagram). The system can work with various input voltages, a single panel or multiple panels connected in series. Parallel connection is also possible, provided adequate blocking diodes are also employed.  
 
 #### [info] Rosef CAN Bus
 The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-block-diagram), is a two wire electrical connection to a CAN bus line, through which communication to other devices connected to the same [ELV Connection](#info-elv-connection) is possible and can be used to coordinate power transfer.
@@ -27,28 +24,16 @@ The Rosef CAN Bus (RCAN), as show in the [Context Block Diagram](#info-context-b
 #### 1.1.1. MPPT Control  
 Solar Mini shall be able to track the maximum power point (MPPT) of the attached [PV Input](#info-pv-input), provided that the available power is within operating limits and that the [ELV Connection](#info-elv-connection) can accept the power.  
 
-> [!caution]  
-> <span style="color:red"> Suggested slight modifications. </span>
-
 #### 1.1.2. Control ELV
 Solar Mini shall be able to control the voltage of the [ELV Connection](#info-elv-connection) to any setpoint between 46V and 50V.
 
 Note: This functionality is limited by the power that the [PV Input](#info-pv-input) can provide, as well as the [Nominal Power](#116-nominal-power) of Solar Mini itself.
 
-> [!caution]  
-> <span style="color:red"> I suggested we keep the same wording as in the Battery Mini requirements, since we're only talking about the ability of Solar Mini, and it would be better to avoid talking about other components. </span>
-
 #### 1.1.3 Droop Control
 Solar Mini shall be able to dynamically determine the voltage setpoint for the [ELV control](#112-control-elv) depending on the current supplied to the [ELV Connection](#info-elv-connection).
 
-> [!caution]  
-> <span style="color:red"> Added this point from Battery Mini, since the same applies here. </span>
-
 #### 1.1.4. Connect to ELV  
 Solar Mini shall be able to shall be able to start operation with any voltage up to 50V at the [ELV Connection](#info-elv-connection).
-
-> [!caution]  
-> <span style="color:red"> Added this point from Battery Mini, since the same applies here. </span>
 
 #### 1.1.5. Parallel Operation
 Solar Mini shall be able to operate in parallel with another source connected to the [ELV Connection](#info-elv-connection) (e.g. another Solar Mini).  
