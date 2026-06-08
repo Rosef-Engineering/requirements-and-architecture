@@ -14,8 +14,8 @@
 
 ### Converter Control Concept
 
-<img src="converter-control-concept.svg" alt="To-Do: Converter Control Concept" width="200%"/>
+<img src="control-block-diagram.svg" alt="Converter Control Concept Block Diagram" width="200%"/>
 
 ### Measurements and Protection Concept
 
-<img src="measurements-concept.svg" alt="To-Do: Measurements and Protection Concept" width="200%"/>
+<img src="measurements-concept.svg" alt="Measurements and Protection Concept" width="200%"/>
