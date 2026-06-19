@@ -20,6 +20,10 @@
 
 <img src="u2di.svg" alt="Control Signal u Decomposition" width="350"/>
 
+- If $u > 0$, then $d_2 = d_u$ and if $v_A > v_B$ then $i_1 = i_u$, else $i_2 = i_u$.
+
+- If $u < 0$, then $d_4 = d_u$ and if $v_A < v_B$ then $i_3 = i_u$, else $i_4 = i_u$.
+
 
 ### Measurements and Protection Concept
 
