@@ -18,7 +18,7 @@
 
 <img src="current-waveform.svg" alt="Example Inductor Current Waveform" width="500"/>
 
-<img src="u2di.svg" alt="Control Signal u Decomposition" width="300"/>
+<img src="u2di.svg" alt="Control Signal u Decomposition" width="350"/>
 
 
 ### Measurements and Protection Concept
