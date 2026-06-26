@@ -24,6 +24,8 @@
 
 - If $u < 0$, then $d_4 = d_u$ and if $v_A < v_B$ then $i_3 = i_u$, else $i_4 = i_u$.
 
+<img src="ulim.svg" alt="Control Signal u Limiting" width="350"/>
+
 
 ### Measurements and Protection Concept
 
