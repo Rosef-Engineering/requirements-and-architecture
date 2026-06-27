@@ -39,10 +39,13 @@ The selected topology is the four switch buck boost, because of its non-invertin
 
 <img src="power-stage-concept.svg" alt="Power Stage Concept" width="600"/>
 
-### Auxiliary Power Supply Concept
+### Auxiliary Power Supply Concept  
 
 <img src="aux-supplies-concept.svg" alt="Auxiliary Power Supply Concept" width="600"/>
-
+  
+- Diodes are used to enable supplying the control electronics from either ports.  
+- The converter which supplies the gate drivers as well as the other converters must be able to operate in dropout mode so that the gate drivers are able to operate when the voltages at port A and B are 12V and 0V respectively. In other words, it must be able to output the required power at at least 10V with an input of 11V. The other two converters must also be able to operate with an input voltage as low as 10V.
+  
 ### Converter Control Concept
 
 <img src="control-block-diagram.svg" alt="Converter Control Concept Block Diagram" width="600"/>
