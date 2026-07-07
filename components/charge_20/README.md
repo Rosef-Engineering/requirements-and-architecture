@@ -20,18 +20,17 @@ Charger 20 shall be able to operate with any input voltage from 46V to 50V at th
 Charger 20 shall be able to provide sufficient power to the consumers with maximum input power of 24W (max current 0.5A)
 
 #### 1.2.3.	Output power 
-Charger 20 shall be able to provide different power at different voltage level like following
-5V	3A	15W
-9V	2A	18W
-12V	1.75A	21W
+Charger 20 shall be able to provide power to two different USB ports:
+USB-A 5V 1.5A 7.5W
+USB-C 5V	3A	15W
+In total charger 20 shall be able to provide 22.5W at 5V. 
+
 
 #### 1.2.4.	USB Interface
-Charger 20 shall have USB Type C (USB-C) connector at output to be able to operate with different kind of phones using different kind of cables.
+Charger 20 shall have to different USB ports (USB-C and USB-A) at output to be able to operate with different kind of phones.
 
 #### 1.2.5.	Supported charging protocols
 Charger 20 shall support:
-- USB Power Delivery 3.0 (fixed PDO)
-- Qualcomm Quick Charge 2.0 / 3.0
 - USB Battery Charging Specification 1.2 (BC1.2)
 - USB Type-C Current Advertisement
 
@@ -55,6 +54,9 @@ The input stage of the device shall incorporate reverse polarity protection to p
 
 #### 1.2.12. Surge protection
 Charger 20 shall withstand ±1 kV surge pulses applied to the 48 VDC input according to IEC 61000-4-5 using a 1.2/50 µs voltage waveform and 8/20 µs current waveform, without permanent damage or uncontrolled behavior.
+
+#### 1.2.13.	Electromagnetic Interference protection (EMI)
+The design shall include input EMI filtering and transient protection to minimize conducted emissions and protect the DC/DC converter from input disturbances.
 
 ## Architecture
 
