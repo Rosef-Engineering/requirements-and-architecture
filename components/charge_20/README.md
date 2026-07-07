@@ -4,6 +4,7 @@
 
 ### 1.1. Context
 [info] Context Block Diagram
+
 <img src="blockdiag.png" alt="Context Block Diagram" width="600"/>
 
 [info] ELV Socket
