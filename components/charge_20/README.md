@@ -4,6 +4,7 @@
 
 ### 1.1. Context
 [info] Context Block Diagram
+<img src="blockdiag.png" alt="Context Block Diagram" width="600"/>
 
 [info] ELV Socket
 The ELV Socket, as show in the Context Block Diagram, is two wire electrical connection to an extra-low-voltage (ELV) line, nominally at 48V. In general, the ELV Socket is the power input for Charger.
@@ -59,5 +60,9 @@ Charger 20 shall withstand ±1 kV surge pulses applied to the 48 VDC input accor
 The design shall include input EMI filtering and transient protection to minimize conducted emissions and protect the DC/DC converter from input disturbances.
 
 ## Architecture
+
+### Concept of design
+<img src="Concept3.png" alt="Concept Block Diagram" width="600"/>
+
 
 
