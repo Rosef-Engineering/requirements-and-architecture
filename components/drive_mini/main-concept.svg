@@ -226,7 +226,7 @@
 <path clip-rule="nonzero" d="M 187.308594 66.40625 L 190.691406 66.40625 L 190.691406 83.59375 L 187.308594 83.59375 Z M 187.308594 66.40625 "/>
 </clipPath>
 <clipPath id="clip-3">
-<path clip-rule="nonzero" d="M 173.9375 86 L 180.0625 86 L 180.0625 108 L 173.9375 108 Z M 173.9375 86 "/>
+<path clip-rule="nonzero" d="M 173.9375 82 L 180.0625 82 L 180.0625 104 L 173.9375 104 Z M 173.9375 82 "/>
 </clipPath>
 <clipPath id="clip-4">
 <path clip-rule="nonzero" d="M 245 29.539062 L 293.707031 29.539062 L 293.707031 36.460938 L 245 36.460938 Z M 245 29.539062 "/>
@@ -301,7 +301,7 @@
 <path clip-rule="nonzero" d="M 142.617188 65 L 147.382812 65 L 147.382812 78.824219 L 142.617188 78.824219 Z M 142.617188 65 "/>
 </clipPath>
 <clipPath id="clip-28">
-<path clip-rule="nonzero" d="M 124.074219 50.617188 L 133.925781 50.617188 L 133.925781 55.382812 L 124.074219 55.382812 Z M 124.074219 50.617188 "/>
+<path clip-rule="nonzero" d="M 124.074219 49 L 133.925781 49 L 133.925781 53.765625 L 124.074219 53.765625 Z M 124.074219 49 "/>
 </clipPath>
 <clipPath id="clip-29">
 <path clip-rule="nonzero" d="M 12 21.9375 L 29.800781 21.9375 L 29.800781 28.0625 L 12 28.0625 Z M 12 21.9375 "/>
@@ -361,9 +361,9 @@
 <path fill-rule="evenodd" fill="rgb(0%, 0%, 0%)" fill-opacity="1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 220 694 L 225 692.335938 L 225 695.664062 Z M 220 694 " transform="matrix(1, 0, 0, -1, -27, 805)"/>
 <g clip-path="url(#clip-3)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-3-0" x="180.0635" y="108.006"/>
-<use xlink:href="#glyph-3-1" x="180.0635" y="99.559651"/>
-<use xlink:href="#glyph-3-2" x="180.0635" y="92.906582"/>
+<use xlink:href="#glyph-3-0" x="180.0635" y="104.006"/>
+<use xlink:href="#glyph-3-1" x="180.0635" y="95.559651"/>
+<use xlink:href="#glyph-3-2" x="180.0635" y="88.906582"/>
 </g>
 </g>
 <g clip-path="url(#clip-4)">
@@ -662,8 +662,8 @@
 </g>
 <g clip-path="url(#clip-28)">
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#glyph-6-7" x="124.074" y="55.3825"/>
-<use xlink:href="#glyph-6-8" x="128.042092" y="55.3825"/>
+<use xlink:href="#glyph-6-7" x="124.074" y="53.765"/>
+<use xlink:href="#glyph-6-8" x="128.042092" y="53.765"/>
 </g>
 </g>
 <g clip-path="url(#clip-29)">
