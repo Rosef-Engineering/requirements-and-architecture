@@ -21,7 +21,7 @@ ELV Converter shall be able to transfer at least 600W of power continuously betw
 ELV Converter shall be able to source and sink up to 18A of current at Port A, provided that the voltage at Port A is between 24V and 33V.
 
 #### Port A Ripple
-ELV Converter shall generate at most 1.5Vpp of ripple at Port A.
+ELV Converter shall generate at most 1.6Vpp of ripple at Port A.
 
 #### Port B Ripple
 ELV Converter shall generate at most 0.1Vpp of ripple at Port B.
