@@ -48,6 +48,10 @@ The selected topology is the four switch buck boost, because of its non-invertin
   
 ### Converter Control Concept
 
+#### Battery Mini
+
+<!-- TODO -->
+
 <img src="control-block-diagram.svg" alt="Converter Control Concept Block Diagram" width="600"/>
 
 <img src="current-waveform-pos.svg" alt="Example Inductor Current Waveform" width="500"/>
@@ -61,6 +65,9 @@ The selected topology is the four switch buck boost, because of its non-invertin
 
 <img src="ulim.svg" alt="Control Signal u Limiting" width="350"/>
 
+#### Solar Mini
+
+<!-- TODO -->
 
 ### Measurements and Protection Concept
 
